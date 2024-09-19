@@ -141,7 +141,7 @@ def main():
         elif opcion == 3:
             # Experimentos con diferentes regiones y parámetros
             M, N = 50, 50
-            T = 100
+            T = 500
             K_values = [0.1, 0.5, 0.9]
             u0_options = ['centro', 'esquina']
             for K in K_values:
