@@ -117,7 +117,7 @@ def main():
         if opcion == 1:
             # Parámetros para la simulación
             M, N = 50, 50
-            T = 100
+            T = 200
             K = 0.5
             u0 = np.zeros((M, N))
             u0[M//2, N//2] = 1  # Distribución inicial en el centro
@@ -128,10 +128,10 @@ def main():
         elif opcion == 2:
             # Parámetros para la simulación
             M, N = 50, 50
-            T = 100
+            T = 200
             K = 0.5
             P = 1000
-            Nexp = 10
+            Nexp = 100
             u0 = np.zeros((M, N))
             u0[M//2, N//2] = 1  # Distribución inicial en el centro
             region = np.ones((M, N), dtype=bool)  # Región completa
